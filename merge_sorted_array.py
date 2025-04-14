@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -14,4 +16,3 @@ class Solution:
                 nums1[k]=nums2[j]
                 j-=1
             k-=1
-            
